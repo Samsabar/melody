@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box; /*  */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    background-color: #635854;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 4px solid #3596F5; /* синяя полоска снизу */
+}
+
+.navbar {
+    max-width: 1280px;
+    margin: auto; /* блок автоматически будет по середине */
+    display: flex; /* сделали блок гибким. располагает элементы в линию */
+    justify-content: space-between; /* распределяет элементы по краям */
+    align-items: center; /* выравнивает элементы по центру относительно друг друга */
+    
+}
+
+.navbar-menu {
+    margin: 0; /*отключим внешние отступы*/
+    padding: 0; /*отключим внутренние отступы*/
+    list-style: none; /* отключили точки */
+    display: flex;
+    text-align: center;
+}
+
+.navbar-item {
+    display: flex;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color:#fff;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.nabar-contacts {
+    text-align: right;
+}
+
+.navbar-text {
+    display: block;
+    color: #fff;
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.navbar-phone {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: bold;      
+    text-decoration: none;
+    color: #fff;
+}
